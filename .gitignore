@@ -1,0 +1,19 @@
+bazel-*
+.DS_Store
+*/Index/*
+*/Build/*
+Index/*
+Build/*
+external
+Vendor/
+xcuserdata/
+DerivedData/
+src/dependencies/vendored/*
+
+# Store Tulsi generated project in tulsiProj
+tulsi-workspace
+tulsiProj/*.xcodeproj
+tulsiProj/**/*tulsiconf-user
+
+# vscode
+.vscode/*

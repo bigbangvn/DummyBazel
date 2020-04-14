@@ -1,0 +1,16 @@
+build \
+  --features=-swift.supports_library_evolution \
+  --apple_platform_type=ios \
+  --features=swift.use_global_module_cache \
+  --compilation_mode=fastbuild \
+  --features=swift.use_global_module_cache \
+  --features=-swift.supports_library_evolution \
+  --apple_platform_type=ios \
+  --ios_minimum_os=10.0 \
+  --ios_simulator_device="iPhone 11" \
+  --ios_simulator_version=13.3 \
+  --verbose_failures \
+  --host_force_python=PY3 \
+  --xcode_version=11.3.1 \
+  --features=swift.index_while_building \
+  --swiftcopt=-index-ignore-system-modules
