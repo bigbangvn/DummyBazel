@@ -1,0 +1,12 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "DummyProject"
+  ],
+  "projectName" : "DummyApp",
+  "workspaceRoot" : "../.."
+}

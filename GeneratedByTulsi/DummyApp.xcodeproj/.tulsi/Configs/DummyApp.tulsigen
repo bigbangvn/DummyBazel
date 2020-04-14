@@ -1,0 +1,17 @@
+{
+  "additionalFilePaths" : [
+    "DummyProject/BUILD"
+  ],
+  "buildTargets" : [
+    "//DummyProject:AppMainLib",
+    "//DummyProject:DummyProject"
+  ],
+  "optionSet" : {
+
+  },
+  "projectName" : "DummyApp",
+  "sourceFilters" : [
+    "DummyProject",
+    "DummyProject/Base.lproj"
+  ]
+}

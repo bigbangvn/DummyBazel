@@ -13,4 +13,5 @@ build \
   --host_force_python=PY3 \
   --xcode_version=11.3.1 \
   --features=swift.index_while_building \
-  --swiftcopt=-index-ignore-system-modules
+  --swiftcopt=-index-ignore-system-modules \
+  --verbose_failures
