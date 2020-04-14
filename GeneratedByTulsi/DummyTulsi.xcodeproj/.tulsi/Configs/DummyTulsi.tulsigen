@@ -1,0 +1,15 @@
+{
+  "additionalFilePaths" : [
+    "Kumon/BUILD"
+  ],
+  "buildTargets" : [
+    "//Kumon:Kumon"
+  ],
+  "optionSet" : {
+
+  },
+  "projectName" : "DummyTulsi",
+  "sourceFilters" : [
+    "Kumon"
+  ]
+}
