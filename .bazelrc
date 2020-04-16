@@ -14,4 +14,6 @@ build \
   --xcode_version=11.3.1 \
   --features=swift.index_while_building \
   --swiftcopt=-index-ignore-system-modules \
-  --verbose_failures
+  --verbose_failures \
+  --strategy=SwiftCompile=standalone \
+  --apple_generate_dsym
