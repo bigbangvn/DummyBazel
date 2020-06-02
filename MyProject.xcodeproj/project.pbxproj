@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023D20611CAFC10B9051A328 /* FirstManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E44F25FA38318950584BE4 /* FirstManager.swift */; };
+		5965EEB06BD8E252C6AC87F8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B403748F072BE018DE9A05 /* ViewController2.swift */; };
+		932B83FDAC34F8F79AC337C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174A844298C28C89B1052EC6 /* Assets.xcassets */; };
+		94577ABD4B1EDC20EA60F413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B180F632EDEDB08431236511 /* LaunchScreen.storyboard */; };
+		9DC3AB839D29F7FE76CAD3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE275F0CFB14598D6D2A301 /* Main.storyboard */; };
+		A530557C5999AF0BF86937FF /* Kumon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7CDE0BE530F2FF9A9D3A52 /* Kumon.a */; };
+		A739F021890C66B1478ECBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B180F632EDEDB08431236511 /* LaunchScreen.storyboard */; };
+		C9517778F6BEC53FA6B165C8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B403748F072BE018DE9A05 /* ViewController2.swift */; };
+		CF88C25C3C23DE3922F1CEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F908025F5716F28919325A /* AppDelegate.swift */; };
+		D0B5BF3F714E0A84863F4023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE275F0CFB14598D6D2A301 /* Main.storyboard */; };
+		D75202D5A70C0AEC6B17F132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174A844298C28C89B1052EC6 /* Assets.xcassets */; };
+		ED698B112C0E4BDE72FB9756 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4815A80B5C7D28A39DBFC /* Stub.swift */; settings = {COMPILER_FLAGS = "-x objective-c -std=gnu99"; }; };
+		EEA5DDEFB136D4A3FFAEC8F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF6C6313ABAB281ADB11AD /* ViewController.swift */; };
+		F666815E6DC2557953B56A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF6C6313ABAB281ADB11AD /* ViewController.swift */; };
+		F81E0ECBB10587C2F726D7C3 /* AppMainLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C738E91C162E6D47066F74F4 /* AppMainLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB952D06B4D72CF4F64C0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE097F9B45A91F865BFFE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AFA3E8DE362B147B4183AA;
+			remoteInfo = AppMainLib;
+		};
+		4262693F02E07F94D74791D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE097F9B45A91F865BFFE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D2CDB834486F56076E8FE4;
+			remoteInfo = Kumon;
+		};
+		8359ACC17A576C5F666E02FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE097F9B45A91F865BFFE74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D2CDB834486F56076E8FE4;
+			remoteInfo = Kumon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F908025F5716F28919325A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		174A844298C28C89B1052EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A7CDE0BE530F2FF9A9D3A52 /* Kumon.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; name = Kumon.a; path = libKumon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCD66E37B2259A0CD7727EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CD4815A80B5C7D28A39DBFC /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		3E941A166227838E321C4D87 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		5634831D3A159C3E8A51F855 /* DummyProject.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DummyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A18E853975EF46A496C3E95 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		A1B403748F072BE018DE9A05 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		A1E44F25FA38318950584BE4 /* FirstManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstManager.swift; sourceTree = "<group>"; };
+		A41A73EC2F2FA008A78698E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C738E91C162E6D47066F74F4 /* AppMainLib.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; name = AppMainLib.a; path = libAppMainLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD19FAD30E25592BFF4ABDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DF6C6313ABAB281ADB11AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B44A0E8FAF1F4863FD5A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81E0ECBB10587C2F726D7C3 /* AppMainLib.a in Frameworks */,
+				A530557C5999AF0BF86937FF /* Kumon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD57E0A6B888D722886718A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C738E91C162E6D47066F74F4 /* AppMainLib.a */,
+				5634831D3A159C3E8A51F855 /* DummyProject.app */,
+				1A7CDE0BE530F2FF9A9D3A52 /* Kumon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85C332342B61A8B5228045A /* DummyProject */ = {
+			isa = PBXGroup;
+			children = (
+				00F908025F5716F28919325A /* AppDelegate.swift */,
+				174A844298C28C89B1052EC6 /* Assets.xcassets */,
+				6A18E853975EF46A496C3E95 /* BUILD */,
+				CD19FAD30E25592BFF4ABDE9 /* Info.plist */,
+				B180F632EDEDB08431236511 /* LaunchScreen.storyboard */,
+				2BE275F0CFB14598D6D2A301 /* Main.storyboard */,
+				D4DF6C6313ABAB281ADB11AD /* ViewController.swift */,
+				A1B403748F072BE018DE9A05 /* ViewController2.swift */,
+			);
+			path = DummyProject;
+			sourceTree = "<group>";
+		};
+		B33924E206F916B04EF16905 = {
+			isa = PBXGroup;
+			children = (
+				A85C332342B61A8B5228045A /* DummyProject */,
+				CC93493215A8E7A2EBF4CB0B /* Kumon */,
+				C7176AC18BF83D7A5CA25222 /* MyProject.xcodeproj */,
+				9BD57E0A6B888D722886718A /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		C7176AC18BF83D7A5CA25222 /* MyProject.xcodeproj */ = {
+			isa = PBXGroup;
+			children = (
+				C8D1C0801D3A0B811E1A3007 /* XCHammerAssets */,
+			);
+			path = MyProject.xcodeproj;
+			sourceTree = "<group>";
+		};
+		C8D1C0801D3A0B811E1A3007 /* XCHammerAssets */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4815A80B5C7D28A39DBFC /* Stub.swift */,
+			);
+			path = XCHammerAssets;
+			sourceTree = "<group>";
+		};
+		CC93493215A8E7A2EBF4CB0B /* Kumon */ = {
+			isa = PBXGroup;
+			children = (
+				3E941A166227838E321C4D87 /* BUILD */,
+				A1E44F25FA38318950584BE4 /* FirstManager.swift */,
+			);
+			path = Kumon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		60E0FEAB124C16DFE5AD7E09 /* UpdateXcodeProject */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-c $PROJECT_FILE_PATH/XCHammerAssets/updateXcodeProj.sh";
+			buildConfigurationList = 680D3A2DBDC8440E82D24B00 /* Build configuration list for PBXLegacyTarget "UpdateXcodeProject" */;
+			buildPhases = (
+				3F296C83A73F2AC442859048 /* Sources */,
+			);
+			buildToolPath = /bin/bash;
+			buildWorkingDirectory = $SRCROOT;
+			dependencies = (
+			);
+			name = UpdateXcodeProject;
+			passBuildSettingsInEnvironment = 1;
+			productName = UpdateXcodeProject;
+		};
+		D2EF5772094856918E4B8F5B /* ResetLLDBInit */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-c 'echo \"settings clear target.source-map\" > ~/.lldbinit-tulsiproj'";
+			buildConfigurationList = 4DE3BA48B58B5BE8788D4F16 /* Build configuration list for PBXLegacyTarget "ResetLLDBInit" */;
+			buildPhases = (
+				DFAED4C62CAC2E832C06278A /* Sources */,
+			);
+			buildToolPath = /bin/bash;
+			buildWorkingDirectory = $SRCROOT;
+			dependencies = (
+			);
+			name = ResetLLDBInit;
+			passBuildSettingsInEnvironment = 1;
+			productName = ResetLLDBInit;
+		};
+		E6ADD42B56ED89534BCE75C0 /* GeneratedFiles */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-c '[[ \"$(ACTION)\" == \"clean\" ]] && (/usr/local/bin/bazel clean) || ($PROJECT_FILE_PATH/XCHammerAssets/retry.sh /usr/local/bin/bazel build --override_repository=xchammer_resources=/usr/local/bin/xchammer.app/Contents/Resources --aspects @xchammer_resources//:xcode_configuration_provider.bzl%xcode_build_sources_aspect --output_groups=xcode_project_deps //DummyProject:DummyProject)'";
+			buildConfigurationList = A05C4605A519217EB34A6D49 /* Build configuration list for PBXLegacyTarget "GeneratedFiles" */;
+			buildPhases = (
+				CCBBCB0CDC32E3CF03AAFDE5 /* Sources */,
+			);
+			buildToolPath = /bin/bash;
+			buildWorkingDirectory = $SRCROOT;
+			dependencies = (
+			);
+			name = GeneratedFiles;
+			passBuildSettingsInEnvironment = 1;
+			productName = GeneratedFiles;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		47AFA3E8DE362B147B4183AA /* AppMainLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE57CB31B5A3675C8957AD2A /* Build configuration list for PBXNativeTarget "AppMainLib" */;
+			buildPhases = (
+				158630DBC87221576816077F /* Sources */,
+				215ABF7A00F812A34A8CC57C /* Resources */,
+				9ED3B99809C50175E2238452 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99F38E022D8B506C0D21075 /* PBXTargetDependency */,
+			);
+			name = AppMainLib;
+			productName = AppMainLib;
+			productReference = C738E91C162E6D47066F74F4 /* AppMainLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95D2CDB834486F56076E8FE4 /* Kumon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF4B5A9C0F7634D9D50F2D5 /* Build configuration list for PBXNativeTarget "Kumon" */;
+			buildPhases = (
+				797AFE7028B153F2CA30B29F /* Sources */,
+				D7DB501F8770EF3E55A1F2DC /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kumon;
+			productName = Kumon;
+			productReference = 1A7CDE0BE530F2FF9A9D3A52 /* Kumon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3F8EE90CBA378D8583AA24E /* DummyProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B5FA9C545713BD6BCD4334 /* Build configuration list for PBXNativeTarget "DummyProject" */;
+			buildPhases = (
+				74D0A59240158248C8AE7192 /* Sources */,
+				FAE96748D7CDF9CC8371BBA8 /* Resources */,
+				44B44A0E8FAF1F4863FD5A29 /* Frameworks */,
+				3BFF8D1A79C3300CAB49C3D3 /* Process IPA */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BB6C2BD0AD2902B2C36CC1 /* PBXTargetDependency */,
+				A564F668DD5B0F4D4DFEAF4C /* PBXTargetDependency */,
+			);
+			name = DummyProject;
+			productName = DummyProject;
+			productReference = 5634831D3A159C3E8A51F855 /* DummyProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE097F9B45A91F865BFFE74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					47AFA3E8DE362B147B4183AA = {
+						ProvisioningStyle = manual;
+					};
+					95D2CDB834486F56076E8FE4 = {
+						ProvisioningStyle = manual;
+					};
+					E3F8EE90CBA378D8583AA24E = {
+						ProvisioningStyle = manual;
+					};
+				};
+			};
+			buildConfigurationList = 4171C9B8E9CB5C104D191546 /* Build configuration list for PBXProject "MyProject" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B33924E206F916B04EF16905;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AFA3E8DE362B147B4183AA /* AppMainLib */,
+				E3F8EE90CBA378D8583AA24E /* DummyProject */,
+				E6ADD42B56ED89534BCE75C0 /* GeneratedFiles */,
+				95D2CDB834486F56076E8FE4 /* Kumon */,
+				D2EF5772094856918E4B8F5B /* ResetLLDBInit */,
+				60E0FEAB124C16DFE5AD7E09 /* UpdateXcodeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215ABF7A00F812A34A8CC57C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932B83FDAC34F8F79AC337C5 /* Assets.xcassets in Resources */,
+				94577ABD4B1EDC20EA60F413 /* LaunchScreen.storyboard in Resources */,
+				9DC3AB839D29F7FE76CAD3EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE96748D7CDF9CC8371BBA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75202D5A70C0AEC6B17F132 /* Assets.xcassets in Resources */,
+				A739F021890C66B1478ECBAF /* LaunchScreen.storyboard in Resources */,
+				D0B5BF3F714E0A84863F4023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BFF8D1A79C3300CAB49C3D3 /* Process IPA */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Process IPA";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/xchammer.app/Contents/MacOS/xchammer process_ipa";
+		};
+		9ED3B99809C50175E2238452 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		D7DB501F8770EF3E55A1F2DC /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		158630DBC87221576816077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C25C3C23DE3922F1CEAD /* AppDelegate.swift in Sources */,
+				EEA5DDEFB136D4A3FFAEC8F3 /* ViewController.swift in Sources */,
+				5965EEB06BD8E252C6AC87F8 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F296C83A73F2AC442859048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D0A59240158248C8AE7192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED698B112C0E4BDE72FB9756 /* Stub.swift in Sources */,
+				F666815E6DC2557953B56A7E /* ViewController.swift in Sources */,
+				C9517778F6BEC53FA6B165C8 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797AFE7028B153F2CA30B29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023D20611CAFC10B9051A328 /* FirstManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBBCB0CDC32E3CF03AAFDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAED4C62CAC2E832C06278A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A564F668DD5B0F4D4DFEAF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D2CDB834486F56076E8FE4 /* Kumon */;
+			targetProxy = 8359ACC17A576C5F666E02FB /* PBXContainerItemProxy */;
+		};
+		A9BB6C2BD0AD2902B2C36CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AFA3E8DE362B147B4183AA /* AppMainLib */;
+			targetProxy = 1AB952D06B4D72CF4F64C0B5 /* PBXContainerItemProxy */;
+		};
+		C99F38E022D8B506C0D21075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D2CDB834486F56076E8FE4 /* Kumon */;
+			targetProxy = 4262693F02E07F94D74791D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE275F0CFB14598D6D2A301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41A73EC2F2FA008A78698E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B180F632EDEDB08431236511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCD66E37B2259A0CD7727EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004D9227E4E62F9617698FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/xchammer-includes/x/x/",
+					"$(SRCROOT)/external/",
+				);
+				INFOPLIST_FILE = DummyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-iquote",
+					"xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap";
+				PRODUCT_MODULE_NAME = DummyProject_AppMainLib;
+				PRODUCT_NAME = AppMainLib;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		019215409988921338FDB128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/external/";
+				INFOPLIST_FILE = "$(SRCROOT)/DummyProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-iquote",
+					"xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "bang.example.ios-app";
+				PRODUCT_MODULE_NAME = DummyProject;
+				PRODUCT_NAME = DummyProject;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		06653E5D4DD3FB3E7562809D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/xchammer-includes/x/x/",
+					"$(SRCROOT)/external/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+				);
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_MODULE_NAME = Kumon;
+				PRODUCT_NAME = Kumon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		0B7E3A9D7EC3B5C69DCFEA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		23457667A75659BFB099DB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/xchammer-includes/x/x/",
+					"$(SRCROOT)/external/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+				);
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_MODULE_NAME = Kumon;
+				PRODUCT_NAME = Kumon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		458D77F73AEF079781589522 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/external/";
+				INFOPLIST_FILE = "$(SRCROOT)/DummyProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-iquote",
+					"xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "bang.example.ios-app";
+				PRODUCT_MODULE_NAME = DummyProject;
+				PRODUCT_NAME = DummyProject;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Profile;
+		};
+		574ABC8DA7A49D2D1D82F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/xchammer-includes/x/x/",
+					"$(SRCROOT)/external/",
+				);
+				INFOPLIST_FILE = DummyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-iquote",
+					"xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap";
+				PRODUCT_MODULE_NAME = DummyProject_AppMainLib;
+				PRODUCT_NAME = AppMainLib;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		5C2EC4B0226A8B9251CD14DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5EEEBAF052955BC6EFD834D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6194C049C9FF43F310E04FD1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Profile;
+		};
+		66BE93A1F95DD8D810A7BBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+				XCHAMMER_DEPS_HASH = "version:0.1.7:7573130972331945-1591071514";
+			};
+			name = Debug;
+		};
+		77E3DF1800988FD45DB0E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		934C6016AA9692216F956AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		978D56E624818A7A606B4488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		9AB34A20C6D6A143E6C302A0 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Profile;
+		};
+		9EF7F290FBED5C77670F9EFF /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Profile;
+		};
+		A19D237158ECA33F54519AD7 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Profile;
+		};
+		AA4B964D007A14F64C4C36D0 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/xchammer-includes/x/x/",
+					"$(SRCROOT)/external/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+				);
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_MODULE_NAME = Kumon;
+				PRODUCT_NAME = Kumon;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Profile;
+		};
+		B35159E57D0B50F864EFE88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D0B63692633819585A5B67D4 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/xchammer-includes/x/x/",
+					"$(SRCROOT)/external/",
+				);
+				INFOPLIST_FILE = DummyProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-iquote",
+					"xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap";
+				PRODUCT_MODULE_NAME = DummyProject_AppMainLib;
+				PRODUCT_NAME = AppMainLib;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Profile;
+		};
+		ED175D267600B03E8AFD4147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = manual;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HAMMER_DIAGNOSTIC_FLAGS = "";
+				HAMMER_IS_BAZEL = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/external/";
+				INFOPLIST_FILE = "$(SRCROOT)/DummyProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-D_FORTIFY_SOURCE=1",
+					"-D_FORTIFY_SOURCE=1",
+					"-iquote",
+					"xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-ObjC",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-Xcc -fmodule-map-file=xchammer-includes/x/x/Kumon/Kumon.modulemaps/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = "bang.example.ios-app";
+				PRODUCT_MODULE_NAME = DummyProject;
+				PRODUCT_NAME = DummyProject;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TULSI_WR = $SOURCE_ROOT;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF4B5A9C0F7634D9D50F2D5 /* Build configuration list for PBXNativeTarget "Kumon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23457667A75659BFB099DB8A /* Debug */,
+				06653E5D4DD3FB3E7562809D /* Release */,
+				AA4B964D007A14F64C4C36D0 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		33B5FA9C545713BD6BCD4334 /* Build configuration list for PBXNativeTarget "DummyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019215409988921338FDB128 /* Debug */,
+				ED175D267600B03E8AFD4147 /* Release */,
+				458D77F73AEF079781589522 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		4171C9B8E9CB5C104D191546 /* Build configuration list for PBXProject "MyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BE93A1F95DD8D810A7BBB1 /* Debug */,
+				934C6016AA9692216F956AF5 /* Release */,
+				9AB34A20C6D6A143E6C302A0 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DE3BA48B58B5BE8788D4F16 /* Build configuration list for PBXLegacyTarget "ResetLLDBInit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35159E57D0B50F864EFE88F /* Debug */,
+				77E3DF1800988FD45DB0E439 /* Release */,
+				9EF7F290FBED5C77670F9EFF /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		680D3A2DBDC8440E82D24B00 /* Build configuration list for PBXLegacyTarget "UpdateXcodeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEEBAF052955BC6EFD834D2 /* Debug */,
+				978D56E624818A7A606B4488 /* Release */,
+				6194C049C9FF43F310E04FD1 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		A05C4605A519217EB34A6D49 /* Build configuration list for PBXLegacyTarget "GeneratedFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7E3A9D7EC3B5C69DCFEA99 /* Debug */,
+				5C2EC4B0226A8B9251CD14DC /* Release */,
+				A19D237158ECA33F54519AD7 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		EE57CB31B5A3675C8957AD2A /* Build configuration list for PBXNativeTarget "AppMainLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004D9227E4E62F9617698FA0 /* Debug */,
+				574ABC8DA7A49D2D1D82F00D /* Release */,
+				D0B63692633819585A5B67D4 /* Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE097F9B45A91F865BFFE74 /* Project object */;
+}

@@ -1,0 +1,3 @@
+module "Kumon" {
+  header "../Kumon-Swift.h"
+}

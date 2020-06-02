@@ -1,0 +1,3 @@
+module "DummyProject_AppMainLib" {
+  header "../AppMainLib-Swift.h"
+}
