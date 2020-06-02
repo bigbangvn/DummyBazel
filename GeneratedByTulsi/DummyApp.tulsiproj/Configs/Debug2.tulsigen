@@ -1,8 +1,11 @@
 {
   "additionalFilePaths" : [
+    "DummyProject/BUILD",
     "Kumon/BUILD"
   ],
   "buildTargets" : [
+    "//DummyProject:AppMainLib",
+    "//DummyProject:DummyProject",
     "//Kumon:Kumon"
   ],
   "optionSet" : {
@@ -46,8 +49,8 @@
       "p" : "$(inherited)"
     }
   },
-  "projectName" : "DummyTulsi",
+  "projectName" : "DummyApp",
   "sourceFilters" : [
-    "Kumon"
+
   ]
 }

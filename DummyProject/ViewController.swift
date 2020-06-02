@@ -19,7 +19,11 @@ public class ViewController: UIViewController {
   }
 
   public func testRealtimeSyx() {
-//    jfksjfdks
+
+  }
+
+  public static func hello() {
+    
   }
 
   public func abc() {

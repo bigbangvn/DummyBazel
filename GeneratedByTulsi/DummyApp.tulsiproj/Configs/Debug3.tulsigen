@@ -1,6 +1,7 @@
 {
   "additionalFilePaths" : [
-    "DummyProject/BUILD"
+    "DummyProject/BUILD",
+    "Kumon/BUILD"
   ],
   "buildTargets" : [
     "//DummyProject:AppMainLib",
@@ -51,6 +52,7 @@
   "projectName" : "DummyApp",
   "sourceFilters" : [
     "DummyProject",
-    "DummyProject/Base.lproj"
+    "DummyProject/Base.lproj",
+    "Kumon"
   ]
 }

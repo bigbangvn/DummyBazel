@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     print(#function)
 
 //    ViewController2().def()
+    ViewController.hello()
     return true
   }
 }
