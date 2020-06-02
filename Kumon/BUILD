@@ -8,4 +8,5 @@ swift_static_framework(
   name = "Kumon",
   module_name = "Kumon",
   srcs = glob(["*.swift"]),
+  visibility = ["//visibility:public"],
 )

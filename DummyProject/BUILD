@@ -6,6 +6,7 @@ swift_library(
   name = "AppMainLib",
   srcs = glob(["*.swift"]),
   data = ["Base.lproj/Main.storyboard"],
+  deps = ["//Kumon"],
 )
 
 ios_application(
@@ -17,7 +18,7 @@ ios_application(
     ],
     launch_storyboard = "Base.lproj/LaunchScreen.storyboard",
     infoplists = [":Info.plist"],
-    minimum_os_version = "13.0",
+    minimum_os_version = "10.0",
     visibility = ["//visibility:public"],
     deps = [":AppMainLib"],
 )

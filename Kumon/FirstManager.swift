@@ -8,8 +8,8 @@
 
 import UIKit
 
-class FirstManager: NSObject {
-  public func doSt() {
-    print("PO")
+public class FirstManager {
+  public static func doSt() {
+    print("OK \(#function)")
   }
 }

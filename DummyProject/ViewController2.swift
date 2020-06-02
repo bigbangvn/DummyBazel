@@ -7,22 +7,20 @@
 //
 
 import UIKit
-import Kumon
 
-public class ViewController: UIViewController {
+public class ViewController2: UIViewController {
 
   override public func viewDidLoad() {
     super.viewDidLoad()
 
     print("OKOKOKX")
-    FirstManager.doSt()
-  }
-
-  public func testRealtimeSyx() {
-//    jfksjfdks
   }
 
   public func abc() {
-//    fsfsd
+    //xxxyyyy
+  }
+
+  public func def() {
+    //yyy
   }
 }
