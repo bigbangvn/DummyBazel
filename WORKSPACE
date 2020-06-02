@@ -32,3 +32,11 @@ load(
 )
 
 protobuf_deps()
+
+# XCHammer resources
+# We currently do a binary check-in of XCHammer and need to alias the
+# resources so they can be loaded
+local_repository(
+    name = "xchammer_resources",
+    path = "../xchammer/xchammer.app/Contents/Resources",
+)
