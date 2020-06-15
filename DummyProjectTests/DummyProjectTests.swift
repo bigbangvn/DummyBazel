@@ -8,7 +8,7 @@
 
 import XCTest
 // @testable import AppMainLib
-// @testable import DummyProject
+//@testable import DummyProject
 
 class DummyProjectTests: XCTestCase {
 

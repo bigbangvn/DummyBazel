@@ -12,5 +12,6 @@ swift_library(
 ios_unit_test(
   name = "DummyProjectTests",
   minimum_os_version = "10.0",
-  deps = ["DummyProjectTestsLib"],
+  deps = [":DummyProjectTestsLib"],
+  #test_host = "//DummyProject",
 )
