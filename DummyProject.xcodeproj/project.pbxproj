@@ -19,6 +19,7 @@
 		5054D82C244574B300CBC677 /* Kumon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5054D825244574B300CBC677 /* Kumon.framework */; };
 		5054D82D244574B300CBC677 /* Kumon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5054D825244574B300CBC677 /* Kumon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5054D833244574CB00CBC677 /* FirstManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054D832244574CB00CBC677 /* FirstManager.swift */; };
+		50E547D72488AC1E00B84B5D /* SecondManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E547D62488AC1E00B84B5D /* SecondManager.swift */; };
 		93F16D71C6909307190571A8 /* Pods_DummyProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58013EF44BCB73F3C9AB27D0 /* Pods_DummyProjectTests.framework */; };
 		BD4647E8AD8BD2EDFA89B4BF /* Pods_DummyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE67E38475B6F01ED924A7B /* Pods_DummyProject.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		5054D827244574B300CBC677 /* Kumon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kumon.h; sourceTree = "<group>"; };
 		5054D828244574B300CBC677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054D832244574CB00CBC677 /* FirstManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstManager.swift; sourceTree = "<group>"; };
+		50E547D62488AC1E00B84B5D /* SecondManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondManager.swift; sourceTree = "<group>"; };
 		56065EA0F38E8F631A42EBD2 /* Pods-DummyProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DummyProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-DummyProjectTests/Pods-DummyProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		58013EF44BCB73F3C9AB27D0 /* Pods_DummyProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE67E38475B6F01ED924A7B /* Pods_DummyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DummyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +188,7 @@
 			children = (
 				5054D827244574B300CBC677 /* Kumon.h */,
 				5054D832244574CB00CBC677 /* FirstManager.swift */,
+				50E547D62488AC1E00B84B5D /* SecondManager.swift */,
 				5054D828244574B300CBC677 /* Info.plist */,
 			);
 			path = Kumon;
@@ -486,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5054D833244574CB00CBC677 /* FirstManager.swift in Sources */,
+				50E547D72488AC1E00B84B5D /* SecondManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

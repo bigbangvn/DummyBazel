@@ -7,7 +7,8 @@
 //
 
 import XCTest
-@testable import DummyProject
+// @testable import AppMainLib
+// @testable import DummyProject
 
 class DummyProjectTests: XCTestCase {
 
@@ -22,6 +23,13 @@ class DummyProjectTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        print(#function)
+        XCTAssert(true)
+    }
+
+    func testHelloWork() {
+      print(#function)
+      XCTAssert(true)
     }
 
     func testPerformanceExample() {

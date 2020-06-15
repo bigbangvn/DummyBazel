@@ -16,6 +16,8 @@ public class ViewController: UIViewController {
 
     print("OKOKOKX")
     FirstManager.doSt()
+    FirstManager.helloWorld()
+    FirstManager.bangnguyen()
   }
 
   public func testRealtimeSyx() {

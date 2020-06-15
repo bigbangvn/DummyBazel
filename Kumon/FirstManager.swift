@@ -12,4 +12,12 @@ public class FirstManager {
   public static func doSt() {
     print("OK \(#function)")
   }
+
+  public static func helloWorld() {
+
+  }
+
+  public static func bangnguyen() {
+    
+  }
 }

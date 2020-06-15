@@ -6,6 +6,7 @@ swift_library(
   name = "AppMainLib",
   srcs = glob(["*.swift"]),
   data = ["Base.lproj/Main.storyboard"],
+  visibility = ["//visibility:public"],
   deps = ["//Kumon"],
 )
 
