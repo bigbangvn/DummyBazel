@@ -6,6 +6,8 @@
   "buildTargets" : [
     "//DummyProject:AppMainLib",
     "//DummyProject:DummyProject",
+    "//DummyProjectTests:DummyProjectTests",
+    "//DummyProjectTests:DummyProjectTestsLib",
     "//Kumon:Kumon"
   ],
   "optionSet" : {

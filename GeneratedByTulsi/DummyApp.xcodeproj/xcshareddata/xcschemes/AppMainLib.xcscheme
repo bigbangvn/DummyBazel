@@ -1,29 +1,29 @@
 
-<Scheme version="1.3" LastUpgradeVersion="1000">
+<Scheme LastUpgradeVersion="1000" version="1.3">
     <BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES">
         <BuildActionEntries>
-            <BuildActionEntry buildForArchiving="YES" buildForTesting="YES" buildForRunning="YES" buildForAnalyzing="YES" buildForProfiling="YES">
-                <BuildableReference BlueprintIdentifier="B265BD643BEABDBE00000000" BuildableName="libAppMainLib.a" ReferencedContainer="container:DummyApp.xcodeproj" BuildableIdentifier="primary" BlueprintName="AppMainLib"></BuildableReference>
+            <BuildActionEntry buildForArchiving="YES" buildForProfiling="YES" buildForTesting="YES" buildForAnalyzing="YES" buildForRunning="YES">
+                <BuildableReference BuildableIdentifier="primary" BuildableName="libAppMainLib.a" BlueprintIdentifier="1C0BA11E00AF762A00000000" BlueprintName="AppMainLib" ReferencedContainer="container:DummyApp.xcodeproj"></BuildableReference>
             </BuildActionEntry>
         </BuildActionEntries>
     </BuildAction>
-    <TestAction buildConfiguration="__TulsiTestRunner_Debug" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB">
+    <TestAction shouldUseLaunchSchemeArgsEnv="YES" buildConfiguration="__TulsiTestRunner_Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
         <Testables></Testables>
         <BuildableProductRunnable runnableDebuggingMode="0">
-            <BuildableReference BuildableName="libAppMainLib.a" BlueprintName="AppMainLib" BlueprintIdentifier="B265BD643BEABDBE00000000" BuildableIdentifier="primary" ReferencedContainer="container:DummyApp.xcodeproj"></BuildableReference>
+            <BuildableReference ReferencedContainer="container:DummyApp.xcodeproj" BuildableIdentifier="primary" BlueprintIdentifier="1C0BA11E00AF762A00000000" BuildableName="libAppMainLib.a" BlueprintName="AppMainLib"></BuildableReference>
         </BuildableProductRunnable>
     </TestAction>
-    <LaunchAction selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" useCustomWorkingDirectory="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB" buildConfiguration="Debug" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" allowLocationSimulation="YES" launchStyle="0" debugServiceExtension="internal">
+    <LaunchAction debugServiceExtension="internal" buildConfiguration="Debug" launchStyle="0" allowLocationSimulation="YES" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" useCustomWorkingDirectory="NO" selectedLauncherIdentifier="Xcode.DebuggerFoundation.Launcher.LLDB">
         <EnvironmentVariables></EnvironmentVariables>
         <MacroExpansion>
-            <BuildableReference BlueprintName="AppMainLib" ReferencedContainer="container:DummyApp.xcodeproj" BlueprintIdentifier="B265BD643BEABDBE00000000" BuildableIdentifier="primary" BuildableName="libAppMainLib.a"></BuildableReference>
+            <BuildableReference ReferencedContainer="container:DummyApp.xcodeproj" BuildableIdentifier="primary" BuildableName="libAppMainLib.a" BlueprintIdentifier="1C0BA11E00AF762A00000000" BlueprintName="AppMainLib"></BuildableReference>
         </MacroExpansion>
     </LaunchAction>
-    <ProfileAction shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES" buildConfiguration="__TulsiTestRunner_Release">
+    <ProfileAction buildConfiguration="__TulsiTestRunner_Release" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
         <MacroExpansion>
-            <BuildableReference BlueprintIdentifier="B265BD643BEABDBE00000000" BuildableName="libAppMainLib.a" BlueprintName="AppMainLib" ReferencedContainer="container:DummyApp.xcodeproj" BuildableIdentifier="primary"></BuildableReference>
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="1C0BA11E00AF762A00000000" BlueprintName="AppMainLib" BuildableName="libAppMainLib.a" ReferencedContainer="container:DummyApp.xcodeproj"></BuildableReference>
         </MacroExpansion>
     </ProfileAction>
     <AnalyzeAction buildConfiguration="Debug"></AnalyzeAction>
-    <ArchiveAction revealArchiveInOrganizer="YES" buildConfiguration="Release"></ArchiveAction>
+    <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"></ArchiveAction>
 </Scheme>
