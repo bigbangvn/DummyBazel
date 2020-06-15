@@ -6,7 +6,8 @@
   },
   "packages" : [
     "DummyProject",
-    "DummyProjectTests"
+    "DummyProjectTests",
+    "DummyProjectUITests"
   ],
   "projectName" : "DummyApp",
   "workspaceRoot" : "../.."

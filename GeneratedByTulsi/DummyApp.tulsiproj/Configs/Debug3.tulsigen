@@ -8,6 +8,8 @@
     "//DummyProject:DummyProject",
     "//DummyProjectTests:DummyProjectTests",
     "//DummyProjectTests:DummyProjectTestsLib",
+    "//DummyProjectUITests:DummyProjectUITests",
+    "//DummyProjectUITests:DummyProjectUITestsLib",
     "//Kumon:Kumon"
   ],
   "optionSet" : {
